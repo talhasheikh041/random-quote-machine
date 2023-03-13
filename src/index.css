@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  background-color: rgb(52, 34, 36);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: #ffff;
+  color: rgb(52, 34, 36);
+  padding: 2em;
+  max-width: 500px;
+}
+
+#text {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+  margin-top: 0.8em;
+  font-size: 1.2rem;
+}
+
+.quote-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+#tweet-quote {
+  color: rgb(52, 34, 36);
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+#new-quote {
+  color: white;
+  background-color: rgb(52, 34, 36);
+  border: none;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
